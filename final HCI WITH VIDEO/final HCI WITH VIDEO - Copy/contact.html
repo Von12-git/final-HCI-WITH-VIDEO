@@ -1,0 +1,248 @@
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<header>
+    <a href="index.html" class="logo"> JHAM-V CARMOTO</a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="contact">
+    <form class="contact-form">
+        <h2>Contact</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>CUSTOMER SERVICE</h3>
+            <ul>
+                <li><a href="https://npi-olsb-customer.otoleap.com/#/home">Contact Us</a></li>
+                <li><a href="https://www.nissan.ph/service/overview.html">Service Campaign</a></li>
+                <li><a href="https://www.nissan.ph/service/overview.html">24/7 Customer Assistance Center</a></li>
+                <li><a href="tel:+639276009557">+09051405030</a></li>
+                <li><a href="tel:+639535786803">+09948337569</a></li>
+                <li><a href="tel:+639535786804">+09675700290 </a></li>
+                <li><a href="tel:+02840365934">+09365554712</a></li>
+                <li><a href="mailto:customersupport@nissan.ph">EMAIL US: customersupport@nissan.ph</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>NETWORK</h3>
+            <ul>
+                <li><a href="https://www.nissan.ph/customer-service.html">Service on Wheels</a></li>
+                <li><a href="https://npi-olsb-customer.otoleap.com/#/home">Book A Mechanic</a></li>
+            </ul>
+
+            <h3>SHOPPING TOOLS</h3>
+            <ul>
+                <li><a href="https://www.nissan.ph/vehicles/brochures.html">Brochures</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>NISSAN SOCIAL</h3>
+            <div class="social-icons footer-social">
+                <a href="https://www.facebook.com/NissanPhilippinesInc" class="social-icon" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/user/NissanPhilippines" class="social-icon" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/nissanph/" class="social-icon" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/NissanPHI" class="social-icon" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <p class="footer-bottom">© 2025 Nissan. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #1f242d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px 9% 0;
+    text-align: center;
+}
+
+.contact-form {
+    width: 600px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    height: 300px;
+    resize: none;
+}
+
+.contact-form button {
+    display: block;
+    padding: 12px 40px;
+    background: #4f68f2;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 10px #4f68f2;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 60px 9% 20px;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.footer-social {
+    margin-top: 15px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    background: #333;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
